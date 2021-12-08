@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Adds missing top-level `py.typed` file for exceptions and constants
 - Fix issue where unsupported currency codes weren't being correctly processed in the binary codec
 - Fixes issue with UNLModify encoding (due to a bug in rippled)
+- Fixes potential issue with conflicting Decimal contexts
 
 ## [1.2.0] - 2021-11-09
 ### Added
