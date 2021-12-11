@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `TicketCreate` transaction model
 - `GenericRequest` model for unsupported request types
 - Methods to convert between `IssuedCurrency` and `IssuedCurrencyAmount`
+- Makes `autofill_transaction` a publicly exposed method
 
 ### Fixed
 - Makes the default ledger version for `get_next_valid_seq_number` `current` instead of `validated`
